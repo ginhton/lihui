@@ -1,0 +1,48 @@
+#+AUTHOR: ZHAO, peng
+#+TITLE: more about emacs
+
+* TODO concept [0/9] 
+** TODO emacs lisp
+   - [[https://learnxinyminutes.com/docs/elisp/][learn x in y minites]]
+   - [[http://smacs.github.io/elisp/][Emacs Lisp Simple tutorial]]
+** TODO package
+   - a bunch of code
+   - reveal.js need 'ox-reveal'
+** TODO mode
+   - main mode vs minor mode
+   - a main mode is for a specific format of file
+   - minor mode can attach to main mode. it offers more common functions, such as line-number-toggling, spell-checking.
+** TODO layer
+   - a bunch of package
+   - org layer supports reveal.js exporting.
+** TODO buffer
+   - each file loaded by the editor is called a buffer
+   - similar to the tabs in browser
+** TODO zhexue
+** TODO daemon / server
+** TODO document
+** TODO config
+* TODO operation [0/6]
+** TODO file
+   - open/create
+   - save
+   - close
+** TODO window
+   - split
+   - close
+** TODO buffer
+   - switch buffer
+   - close buffer
+** TODO config
+   - ~/.emacs
+   - ~/.spacemacs
+** TODO alt-x alt-x
+   - invoke command by their name
+** TODO smart key ,
+* TODO commands [0/6]
+** TODO global-centered-cursor-mode
+** TODO zone
+** TODO display time
+** TODO erc
+** TODO magit
+** TODO dired
