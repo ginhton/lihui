@@ -1,7 +1,10 @@
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_HLEVEL: 1
 #+AUTHOR: ZHAO, peng
 #+TITLE: more about emacs
+#+OPTIONS: toc:1
 
-* TODO concept [0/9] 
+* TODO concept [0/7] 
 ** TODO emacs lisp
    - [[https://learnxinyminutes.com/docs/elisp/][learn x in y minites]]
    - [[http://smacs.github.io/elisp/][Emacs Lisp Simple tutorial]]
@@ -13,15 +16,16 @@
    - a main mode is for a specific format of file
    - minor mode can attach to main mode. it offers more common functions, such as line-number-toggling, spell-checking.
 ** TODO layer
-   - a bunch of package
+   - a bunch of packages
    - org layer supports reveal.js exporting.
 ** TODO buffer
    - each file loaded by the editor is called a buffer
    - similar to the tabs in browser
-** TODO zhexue
 ** TODO daemon / server
+   - start a emacs server, and connect to it by emacsclient
+   - for quicker speed
 ** TODO document
-** TODO config
+   - 
 * TODO operation [0/6]
 ** TODO file
    - open/create

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>more about emacs</title>
+<meta name="author" content="(ZHAO, peng)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">more about emacs</h1><h2 class="author">ZHAO, peng</h2><p class="date">Created: 2018-07-09 Mon 15:48</p>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orge0e4009">1. <span class="todo TODO">TODO</span> concept <code>[0/7]</code></a></li>
+<li><a href="#/slide-orgbf912f1">2. <span class="todo TODO">TODO</span> operation <code>[0/6]</code></a></li>
+<li><a href="#/slide-org5ea096e">3. <span class="todo TODO">TODO</span> commands <code>[0/6]</code></a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-orge0e4009">
+<h2 id="orge0e4009"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> concept <code>[0/7]</code></h2>
+<div class="outline-text-2" id="text-1">
+</div>
+</section>
+<section id="slide-orgdee74de">
+<h3 id="orgdee74de"><span class="section-number-3">1.1</span> <span class="todo TODO">TODO</span> emacs lisp</h3>
+<ul>
+<li><a href="https://learnxinyminutes.com/docs/elisp/">learn x in y minites</a></li>
+<li><a href="http://smacs.github.io/elisp/">Emacs Lisp Simple tutorial</a></li>
+
+</ul>
+</section>
+<section id="slide-orgeb55aac">
+<h3 id="orgeb55aac"><span class="section-number-3">1.2</span> <span class="todo TODO">TODO</span> package</h3>
+<ul>
+<li>a bunch of code</li>
+<li>reveal.js need 'ox-reveal'</li>
+
+</ul>
+</section>
+<section id="slide-org09f2566">
+<h3 id="org09f2566"><span class="section-number-3">1.3</span> <span class="todo TODO">TODO</span> mode</h3>
+<ul>
+<li>main mode vs minor mode</li>
+<li>a main mode is for a specific format of file</li>
+<li>minor mode can attach to main mode. it offers more common functions, such as line-number-toggling, spell-checking.</li>
+
+</ul>
+</section>
+<section id="slide-org45c2cb3">
+<h3 id="org45c2cb3"><span class="section-number-3">1.4</span> <span class="todo TODO">TODO</span> layer</h3>
+<ul>
+<li>a bunch of packages</li>
+<li>org layer supports reveal.js exporting.</li>
+
+</ul>
+</section>
+<section id="slide-org3e74ee2">
+<h3 id="org3e74ee2"><span class="section-number-3">1.5</span> <span class="todo TODO">TODO</span> buffer</h3>
+<ul>
+<li>each file loaded by the editor is called a buffer</li>
+<li>similar to the tabs in browser</li>
+
+</ul>
+</section>
+<section id="slide-orgdb8f84a">
+<h3 id="orgdb8f84a"><span class="section-number-3">1.6</span> <span class="todo TODO">TODO</span> daemon / server</h3>
+<ul>
+<li>start a emacs server, and connect to it by emacsclient</li>
+<li>for quicker speed</li>
+
+</ul>
+</section>
+<section id="slide-org5668149">
+<h3 id="org5668149"><span class="section-number-3">1.7</span> <span class="todo TODO">TODO</span> document</h3>
+<ul>
+<li></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgbf912f1">
+<h2 id="orgbf912f1"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> operation <code>[0/6]</code></h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+<section id="slide-org1c11694">
+<h3 id="org1c11694"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> file</h3>
+<ul>
+<li>open/create</li>
+<li>save</li>
+<li>close</li>
+
+</ul>
+</section>
+<section id="slide-orgec616a5">
+<h3 id="orgec616a5"><span class="section-number-3">2.2</span> <span class="todo TODO">TODO</span> window</h3>
+<ul>
+<li>split</li>
+<li>close</li>
+
+</ul>
+</section>
+<section id="slide-org80a80b8">
+<h3 id="org80a80b8"><span class="section-number-3">2.3</span> <span class="todo TODO">TODO</span> buffer</h3>
+<ul>
+<li>switch buffer</li>
+<li>close buffer</li>
+
+</ul>
+</section>
+<section id="slide-orgd9808e2">
+<h3 id="orgd9808e2"><span class="section-number-3">2.4</span> <span class="todo TODO">TODO</span> config</h3>
+<ul>
+<li>~/.emacs</li>
+<li>~/.spacemacs</li>
+
+</ul>
+</section>
+<section id="slide-org458e299">
+<h3 id="org458e299"><span class="section-number-3">2.5</span> <span class="todo TODO">TODO</span> alt-x alt-x</h3>
+<ul>
+<li>invoke command by their name</li>
+
+</ul>
+</section>
+<section id="slide-orgf597d57">
+<h3 id="orgf597d57"><span class="section-number-3">2.6</span> <span class="todo TODO">TODO</span> smart key ,</h3>
+</section>
+</section>
+<section>
+<section id="slide-org5ea096e">
+<h2 id="org5ea096e"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> commands <code>[0/6]</code></h2>
+<div class="outline-text-2" id="text-3">
+</div>
+</section>
+<section id="slide-orgd3ecc9b">
+<h3 id="orgd3ecc9b"><span class="section-number-3">3.1</span> <span class="todo TODO">TODO</span> global-centered-cursor-mode</h3>
+</section>
+<section id="slide-org0cb01ca">
+<h3 id="org0cb01ca"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> zone</h3>
+</section>
+<section id="slide-orgcee4e38">
+<h3 id="orgcee4e38"><span class="section-number-3">3.3</span> <span class="todo TODO">TODO</span> display time</h3>
+</section>
+<section id="slide-org6038912">
+<h3 id="org6038912"><span class="section-number-3">3.4</span> <span class="todo TODO">TODO</span> erc</h3>
+</section>
+<section id="slide-org2b84de2">
+<h3 id="org2b84de2"><span class="section-number-3">3.5</span> <span class="todo TODO">TODO</span> magit</h3>
+</section>
+<section id="slide-org53cd212">
+<h3 id="org53cd212"><span class="section-number-3">3.6</span> <span class="todo TODO">TODO</span> dired</h3>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
