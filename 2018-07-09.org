@@ -1,33 +1,40 @@
 #+REVEAL_ROOT: https://cdn.bootcss.com/reveal.js/3.6.0/
 # http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+REVEAL_HLEVEL: 1
-#+AUTHOR: ZHAO, peng
+#+AUTHOR: ZHAO, Peng
 #+TITLE: more about emacs
 #+OPTIONS: toc:1
 
-* TODO concept [0/7] 
-** TODO emacs lisp
+* TODO concept [7/7] 
+** DONE emacs lisp
+   CLOSED: [2018-07-09 Mon 18:14]
    - The name LISP derives from "List Processor".
    - Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Only Fortran is older, by one year.
    - [[https://learnxinyminutes.com/docs/elisp/][learn x in y minites]]
    - [[http://smacs.github.io/elisp/][Emacs Lisp Simple tutorial]]
-** TODO package
+** DONE package
+   CLOSED: [2018-07-09 Mon 18:14]
    - a bunch of code
    - reveal.js need 'ox-reveal'
-** TODO mode
+** DONE mode
+   CLOSED: [2018-07-09 Mon 18:17]
    - main mode vs minor mode
    - a main mode is for a specific format of file
    - minor mode can attach to main mode. it offers more common functions, such as line-number-toggling, spell-checking.
-** TODO layer
+** DONE layer
+   CLOSED: [2018-07-09 Mon 18:17]
    - a bunch of packages
    - org layer supports reveal.js exporting.
-** TODO buffer
+** DONE buffer
+   CLOSED: [2018-07-09 Mon 18:19]
    - each file loaded by the editor is called a buffer
    - similar to the tabs in browser
-** TODO daemon / server
+** DONE daemon / server
+   CLOSED: [2018-07-09 Mon 18:19]
    - start a emacs server, and connect to it by emacsclient
    - for quicker speed
-** TODO document
+** DONE document
+   CLOSED: [2018-07-09 Mon 18:22]
    - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html][emacs]]
    - [[http://spacemacs.org/layers/+emacs/org/README.html][org layer]]
    - [[https://orgmode.org/][org mode]]
@@ -40,7 +47,7 @@
    - close
 ** TODO buffer
    - switch buffer
-   - close buffer
+   - delete buffer
 ** TODO config
    - ~/.emacs
    - ~/.spacemacs

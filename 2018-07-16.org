@@ -1,0 +1,39 @@
+
+#+REVEAL_ROOT: https://cdn.bootcss.com/reveal.js/3.6.0/
+#+REVEAL_HLEVEL: 1
+#+AUTHOR: ZHAO, Peng
+#+TITLE: Weekly report
+#+OPTIONS: toc:1
+* [[https://ginhton.github.io/2018-07-09-contents.html][html version]]
+* read material about etherum and smart contract 
+** Ethereum
+*** Philosophy
+*** Ethereum Accounts
+*** Messages and Transactions
+*** Messages
+*** Ethereum State Transition Function
+*** Code Execution
+*** Blockchain and Mining
+** Applications
+*** Token Systems
+*** Financial derivatives and Stable-Value Currencies
+*** Identity and Reputation Systems
+*** Decentralized File Storage
+*** Decentralized Autonomous Organizations
+*** Further Applications
+** idea
+*** how to use blockchain and smart contract to build DUT coin?
+* interesting things
+** 日本就业率创新高 
+    - 由于日本人口不断萎缩，劳动力短缺，就业率变得极高。2018年5月，就业人数达到6698万人，是1953年以来的新高。应届大学生的就业率，达到前所未有的98%，进入了大学毕业生几乎人人都能找到工作的"完全就业"时代，学生对企业的招聘会也失去参加热情。
+
+** 涂上毒药的书籍 
+    - 意大利历史小说《玫瑰之名》，讲述了一个恐怖故事。中世纪时，有人为了防止异端邪说传播，为某些书籍涂上了毒药，由于那时的僧侣有沾唾液翻书的习惯，读久了就会中毒身亡。
+    - 南丹麦大学对图书馆的古书进行 X 光分析，发现真有三本这样的古书，页面涂上了砷，不知道曾经毒死了多少人。
+    https://www.wangbase.com/blogimg/asset/201807/bg2018071305.jpg
+** 近视与读书时间正相关
+    - 英国一项研究发现，儿童每天读书时间越长，患上近视的可能性越高。我国城市学生的近视发病率达到90%，十个孩子里面有九个是近视，这说明中国的教育方式有问题，孩子读书时间过长是近视人口超多的主要原因。
+    - [[https://mail.python.org/pipermail/python-committers/2018-July/005664.html][link]]
+** Gentoo 的 GitHub 账户被黑
+    - 6月底，有人拿到 Linux 发行版 Gentoo 的 GitHub 管理员权限，然后把密码改了，其他管理员都删了，在应用程序的源码里面加入 rm -rf 。虽然，GitHub 官方已经处理这件事情，但是看了也是一身冷汗。万一真的以 root 权限运行，莫名其妙你的系统就全没了。
+
