@@ -4,7 +4,7 @@
 #+AUTHOR: ZHAO, Peng
 #+TITLE: Weekly report
 #+OPTIONS: toc:1
-* [[https://ginhton.github.io/2018-07-09-contents.html][html version]]
+* [[https://ginhton.github.io/2018-07-16-contents.html][html version]]
 * read material about etherum and smart contract 
 ** Ethereum
 *** Philosophy
